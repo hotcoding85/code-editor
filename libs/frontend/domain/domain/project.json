@@ -1,0 +1,77 @@
+{
+  "name": "frontend-domain-domain",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["scope:frontend"],
+  "sourceRoot": "libs/frontend/domain/domain/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/frontend/domain/domain/**/*.{ts,tsx,js,jsx}"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-domain-domain.xml",
+          "quiet": true
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/frontend/domain/domain"],
+      "options": {
+        "jestConfig": "libs/frontend/domain/domain/jest.config.ts",
+        "passWithNoTests": true,
+        "reporters": ["default"]
+      }
+    },
+    "test:integration": {
+      "defaultConfiguration": "dev",
+      "options": {
+        "memoryLimit": 8192,
+        "color": true,
+        "testPathPattern": ["[i].spec.ts"],
+        "jestConfig": "libs/frontend/domain/domain/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "dev": {
+          "reporters": ["default"]
+        },
+        "test": {
+          "reporters": ["default"]
+        },
+        "ci": {
+          "parallel": 3
+        }
+      },
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/frontend/domain/domain"]
+    },
+    "test:unit": {
+      "defaultConfiguration": "dev",
+      "options": {
+        "color": true,
+        "memoryLimit": 8192,
+        "parallel": 3,
+        "testPathPattern": ["[^i].spec.ts"],
+        "jestConfig": "libs/frontend/domain/domain/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "dev": {
+          "reporters": ["default"]
+        },
+        "test": {
+          "reporters": ["default"]
+        },
+        "ci": {}
+      },
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/frontend/domain/domain"]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Parallel Slack notification https://github.com/CircleCI-Public/slack-orb/issues/305
+# https://support.circleci.com/hc/en-us/articles/360047082992-Send-slack-notification-at-end-of-workflow
+
+#slack-fail-post-step: &slack-fail-post-step
+#  post-steps:
+#    #    - swissknife/wait_for_job:
+#    #        job-name: install-and-build-workspace,lint,unit,e2e,codegen
+#    - slack/notify:
+#        event: fail
+#        channel: $SLACK_CHANNEL_UPDATE
+#        template: basic_fail_1
+
+version: 2.1
+
+orbs:
+  slack: circleci/slack@4.12.5
+  node: circleci/node@5.1.0
+  nx: nrwl/nx@1.6.1
+  queue: eddiewebb/queue@2.2.1
+  swissknife: roopakv/swissknife@0.69.0
+  terraform: circleci/terraform@3.2.1
+
+working_directory: ~/project

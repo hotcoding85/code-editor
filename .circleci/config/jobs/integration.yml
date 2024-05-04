@@ -1,0 +1,13 @@
+executor: docker-node-neo4j
+resource_class: large
+steps:
+  - restore-workspace
+  - run:
+      name: 'Run Integration Tests'
+      command: yarn cli tasks int --stage ci
+      no_output_timeout: 20m
+      environment:
+        JEST_JUNIT_OUTPUT_DIR: ./tmp/reports/test-integration
+        # JEST_JUNIT_OUTPUT_NAME: 'integration-specs-results.xml'
+  - store_test_results:
+      path: ./tmp/reports/test-integration

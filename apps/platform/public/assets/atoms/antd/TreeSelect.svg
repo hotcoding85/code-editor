@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="110px" viewBox="0 0 141 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TreeSelect</title>
+    <g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🎉-5.0-新版" transform="translate(-1277.000000, -2424.000000)">
+            <g id="TreeSelect" transform="translate(1278.000000, 2424.000000)">
+                <g id="编组-60">
+                    <g id="path-1-link" fill="#FFFFFF" stroke="#1677FF">
+                        <rect id="矩形" x="0.5" y="0.5" width="138" height="19" rx="3"></rect>
+                    </g>
+                    <text id="Please-Select" fill-opacity="0.25" fill="#000000" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="7.9245283" font-weight="normal">
+                        <tspan x="6" y="12">Please Select</tspan>
+                    </text>
+                    <g id="1.通用/2.Icon图标/Line/Down" transform="translate(127.528302, 9.528302) scale(-1, 1) rotate(-180.000000) translate(-127.528302, -9.528302) translate(123.000000, 5.000000)" fill="#000000" fill-rule="nonzero">
+                        <g id="up" opacity="0">
+                            <rect id="矩形" x="0" y="0" width="9.05660377" height="9.05660377"></rect>
+                        </g>
+                        <path d="M7.78313088,2.26415094 L7.11980541,2.26415094 C7.07469928,2.26415094 7.03224645,2.28626179 7.00571343,2.32252358 L4.49303655,5.78596698 L1.98035966,2.32252358 C1.95382664,2.28626179 1.91137381,2.26415094 1.86626768,2.26415094 L1.20294221,2.26415094 C1.145454,2.26415094 1.11184551,2.32959906 1.145454,2.37647406 L4.26396815,6.67570755 C4.3771757,6.83136792 4.60889739,6.83136792 4.72122051,6.67570755 L7.83973466,2.37647406 C7.87422758,2.32959906 7.84061909,2.26415094 7.78313088,2.26415094 Z" id="路径" fill-opacity="0.25"></path>
+                    </g>
+                </g>
+                <g id="Rectangle-3-Copy-23" transform="translate(0.566038, 21.943396)" fill="#FFFFFF" stroke="#000000" stroke-opacity="0.12" stroke-width="0.6">
+                    <g id="path-2-link">
+                        <rect id="path-2" x="-0.3" y="-0.3" width="138.6" height="87.6" rx="1.13207547"></rect>
+                    </g>
+                </g>
+                <g id="Tree备份" transform="translate(5.566038, 26.566038)">
+                    <g id="编组-15">
+                        <g id="编组-12" transform="translate(0.000000, 4.556962)">
+                            <rect id="矩形" x="0" y="0" width="9.11392405" height="6.07594937"></rect>
+                            <path d="M7.36230459,4.76344426 L4.61669573,1.58717625 C4.53810644,1.49625892 4.38678025,1.49625892 4.3073549,1.58717625 L1.56174605,4.76344426 C1.45974718,4.88188703 1.55171337,5.05538066 1.71641646,5.05538066 L7.20763417,5.05538066 C7.37233726,5.05538066 7.46430345,4.88188703 7.36230459,4.76344426 Z" id="Path" fill-opacity="0.65" fill="#000000" fill-rule="nonzero" transform="translate(4.462025, 3.287184) scale(-1, 1) rotate(-180.000000) translate(-4.462025, -3.287184) "></path>
+                        </g>
+                        <text id="|||||||||||||||" fill-opacity="0.65" fill="#000000" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="10.6329114" font-weight="normal">
+                            <tspan x="16" y="11">|||||||||||||||</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-15备份" transform="translate(16.000000, 62.000000)" fill="#000000" fill-opacity="0.65" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="10.6329114" font-weight="normal">
+                        <g id="|||||||||||||||">
+                            <text>
+                                <tspan x="0" y="11">|||||||||||||||</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="||||||||||||||||||" transform="translate(31.000000, 15.000000)" fill="#000000" fill-opacity="0.65" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="10.6329114" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">||||||||||||||||||</tspan>
+                        </text>
+                    </g>
+                    <g id="||||||||||||||||||备份" transform="translate(31.000000, 30.000000)" fill="#000000" fill-opacity="0.65" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="10.6329114" font-weight="normal">
+                        <text id="||||||||||||||||||">
+                            <tspan x="0" y="11">||||||||||||||||||</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-13备份-2" transform="translate(30.569620, 45.569620)" fill="#000000" fill-opacity="0.65" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="10.6329114" font-weight="normal">
+                        <g id="|||||||||||||||||">
+                            <text>
+                                <tspan x="0" y="11">|||||||||||||||||</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

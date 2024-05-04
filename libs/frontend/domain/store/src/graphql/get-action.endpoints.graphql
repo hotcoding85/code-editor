@@ -1,0 +1,11 @@
+query GetActions(
+  $codeActionWhere: CodeActionWhere
+  $apiActionWhere: ApiActionWhere
+) {
+  codeActions(where: $codeActionWhere) {
+    ...Action
+  }
+  apiActions(where: $apiActionWhere) {
+    ...Action
+  }
+}

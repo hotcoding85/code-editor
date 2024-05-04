@@ -1,0 +1,69 @@
+{
+  "name": "platform-api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/platform-api",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "prod",
+      "options": {
+        "outputPath": "dist/apps/platform-api"
+      },
+      "configurations": {
+        "dev": {},
+        "ci": {},
+        "test": {
+          "outputPath": "dist/apps/platform-api-test"
+        },
+        "prod": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "dev",
+      "options": {
+        "port": 4000,
+        "buildTarget": "platform-api:build:dev",
+        "dev": true
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "platform-api:build:ci",
+          "dev": false
+        },
+        "dev": {},
+        "test": {
+          "port": 4001,
+          "buildTarget": "platform-api:build:test"
+        },
+        "prod": {
+          "buildTarget": "platform-api:build:prod",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "platform-api:build:prod"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/platform-api/**/*.{ts,tsx,js,jsx}"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/platform-api.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:frontend"]
+}

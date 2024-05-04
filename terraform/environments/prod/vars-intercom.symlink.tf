@@ -1,0 +1,1 @@
+../shared/vars-intercom.tf

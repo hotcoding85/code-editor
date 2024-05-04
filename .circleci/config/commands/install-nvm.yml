@@ -1,0 +1,19 @@
+steps:
+  - restore_cache:
+      name: 'Restore NVM Cache'
+      keys:
+        - nvm-cache-{{ checksum ".nvmrc" }}
+  - run:
+      name: 'Install NVM'
+      command: source ~/project/.circleci/config/install-nvm.sh
+  - save_cache:
+      name: 'Save NVM Cache'
+      key: nvm-cache-{{ checksum ".nvmrc" }}
+      paths:
+        - ~/.nvm
+  - run:
+      name: 'Set Node Version'
+      command: |
+        nvm install 18.16.0
+        nvm alias default 18.16.0
+        node -v

@@ -1,0 +1,23 @@
+{
+  "name": "frontend-domain-style",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/frontend/domain/style/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/frontend/domain/style/**/*.{ts,tsx,js,jsx}"]
+      },
+      "outputs": ["{options.outputFile}"],
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-domain-style.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:frontend", "layer:domain"]
+}

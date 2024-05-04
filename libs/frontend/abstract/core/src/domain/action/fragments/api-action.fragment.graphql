@@ -1,0 +1,16 @@
+fragment ApiAction on ApiAction {
+  ...BaseAction
+  successAction {
+    ...BaseAction
+  }
+  errorAction {
+    ...BaseAction
+  }
+  resource {
+    ...Resource
+  }
+  config {
+    id
+    data
+  }
+}

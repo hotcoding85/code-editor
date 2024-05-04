@@ -1,0 +1,23 @@
+{
+  "name": "backend-infra-adapter-neo4j",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/backend/infra/adapter/neo4j/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/backend/infra/adapter/neo4j/**/*.ts"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/backend-infra-adapter-neo4j.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:backend", "layer:infra"]
+}

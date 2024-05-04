@@ -1,0 +1,15 @@
+node_modules
+dist
+yarn.lock
+.yarn
+.next
+.cache
+public
+*.png
+*.d.ts
+*.mp4
+*.log
+**/*.gen.ts
+jest.config.ts
+
+

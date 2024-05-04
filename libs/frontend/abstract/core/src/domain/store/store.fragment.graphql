@@ -1,0 +1,16 @@
+fragment Store on Store {
+  id
+  name
+  api {
+    ...InterfaceType
+  }
+  component {
+    id
+  }
+  page {
+    id
+  }
+  actions {
+    ...Action
+  }
+}

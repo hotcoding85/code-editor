@@ -1,0 +1,24 @@
+fragment Component on Component {
+  id
+  name
+  keyGenerator
+  rootElement {
+    id
+    name
+  }
+  owner {
+    ...Owner
+  }
+  api {
+    ...InterfaceType
+  }
+  props {
+    ...Prop
+  }
+  childrenContainerElement {
+    id
+  }
+  store {
+    ...Store
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="74px" viewBox="0 0 75 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🎉-5.0-新版" transform="translate(-945.000000, -4572.000000)">
+            <g id="编组-3" transform="translate(945.000000, 4572.000000)">
+                <g id="Feedback/Progress/Light/Bar-Default-Mini">
+                    <g id="Progress" transform="translate(0.000000, 4.540816)">
+                        <rect id="Progress-Bg" fill-opacity="0.04" fill="#000000" x="0" y="0" width="50" height="3" rx="1.5"></rect>
+                        <rect fill="#1677FF" x="0" y="0" width="25" height="3" rx="1.5"></rect>
+                    </g>
+                    <text id="Text" font-family="PingFangSC-Regular, PingFang SC" font-size="7" font-weight="normal" line-spacing="11" fill="#000000" fill-opacity="0.45">
+                        <tspan x="53.5" y="7">50%</tspan>
+                    </text>
+                </g>
+                <g id="Feedback/Progress/Light/Bar-Error-Mini" transform="translate(0.000000, 45.326531)">
+                    <g id="Progress" transform="translate(0.000000, 1.500000)">
+                        <rect id="Rectangle-57-Copy-29" fill-opacity="0.04" fill="#000000" x="0" y="0" width="50" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-57-Copy-30" fill="#FF4D4F" x="0" y="0" width="25" height="3" rx="1.5"></rect>
+                    </g>
+                    <g id="Icon/Fill/Close-Circle-Fill" transform="translate(54.000000, 0.000000)" fill="#FF4D4F">
+                        <rect id="矩形" fill-rule="nonzero" opacity="0" x="0" y="0" width="6" height="6"></rect>
+                        <path d="M3,0.375 C1.55039063,0.375 0.375,1.55039063 0.375,3 C0.375,4.44960937 1.55039063,5.625 3,5.625 C4.44960937,5.625 5.625,4.44960937 5.625,3 C5.625,1.55039063 4.44960937,0.375 3,0.375 Z M3.96914063,3.99726562 L3.58242188,3.99550781 L3,3.30117187 L2.41816406,3.99492187 L2.03085937,3.99667969 C2.00507812,3.99667969 1.98398437,3.97617187 1.98398437,3.94980469 C1.98398437,3.93867187 1.98808594,3.928125 1.99511719,3.91933594 L2.75742188,3.01113281 L1.99511719,2.10351562 C1.98808594,2.09472656 1.98398437,2.08417969 1.98398437,2.07304687 C1.98398437,2.04726562 2.00507812,2.02617187 2.03085937,2.02617187 L2.41816406,2.02792969 L3,2.72226562 L3.58183594,2.02851562 L3.96855469,2.02675781 C3.99433594,2.02675781 4.01542969,2.04726562 4.01542969,2.07363281 C4.01542969,2.08476562 4.01132812,2.0953125 4.00429687,2.10410156 L3.24316406,3.01171875 L4.00488281,3.91992188 C4.01191406,3.92871094 4.01601562,3.93925781 4.01601562,3.95039062 C4.01601562,3.97617187 3.99492188,3.99726562 3.96914063,3.99726562 Z" id="形状"></path>
+                    </g>
+                </g>
+                <g id="Feedback/Progress/Light/Bar-Loading-Mini" transform="translate(0.000000, 62.925170)">
+                    <g id="Progress" transform="translate(0.000000, 4.037415)">
+                        <rect id="Progress-Bg" fill-opacity="0.04" fill="#000000" x="0" y="0" width="50" height="3" rx="1.5"></rect>
+                        <rect id="Progress-Loading" fill="#91CAFF" x="0" y="0" width="35" height="3" rx="1.5"></rect>
+                        <rect fill="#1677FF" x="0" y="0" width="27" height="3" rx="1.5"></rect>
+                    </g>
+                    <text id="Text" font-family="PingFangSC-Regular, PingFang SC" font-size="7" font-weight="normal" line-spacing="11" fill="#000000" fill-opacity="0.45">
+                        <tspan x="54" y="7">ing</tspan>
+                    </text>
+                </g>
+                <g id="Feedback/Progress/Light/Bar-Success-Mini" transform="translate(0.000000, 24.183673)">
+                    <g id="Progress" transform="translate(0.000000, 1.500000)">
+                        <rect id="Progress-Bg" fill-opacity="0.04" fill="#000000" x="0" y="0" width="50" height="3" rx="1.5"></rect>
+                        <rect fill="#52C41A" x="0" y="0" width="50" height="3" rx="1.5"></rect>
+                    </g>
+                    <g id="Icon/Fill/Close-Circle-Fill" transform="translate(54.000000, 0.000000)" fill="#52C41A">
+                        <rect id="矩形" fill-rule="nonzero" opacity="0" x="0" y="0" width="6" height="6"></rect>
+                        <path d="M3,0.375 C1.55039063,0.375 0.375,1.55039063 0.375,3 C0.375,4.44960937 1.55039063,5.625 3,5.625 C4.44960937,5.625 5.625,4.44960937 5.625,3 C5.625,1.55039063 4.44960937,0.375 3,0.375 Z M4.13378906,2.14277344 L2.89980469,3.85371094 C2.82539063,3.95742188 2.67128906,3.95742188 2.596875,3.85371094 L1.86621094,2.84121094 C1.84394531,2.81015625 1.86621094,2.76679687 1.90429688,2.76679687 L2.17910156,2.76679687 C2.23886719,2.76679687 2.29570312,2.79550781 2.33085937,2.84472656 L2.74804688,3.42363281 L3.66914062,2.14628906 C3.70429687,2.09765625 3.76054688,2.06835937 3.82089844,2.06835937 L4.09570312,2.06835937 C4.13378906,2.06835937 4.15605469,2.11171875 4.13378906,2.14277344 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

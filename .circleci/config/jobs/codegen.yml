@@ -1,0 +1,7 @@
+executor: docker-node-neo4j
+resource_class: medium
+steps:
+  - restore-workspace
+  - run:
+      name: 'GraphQL Codegen'
+      command: yarn cli tasks codegen --stage ci

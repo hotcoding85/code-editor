@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="77px" viewBox="0 0 121 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Input</title>
+    <g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🎉-5.0-新版" transform="translate(-558.000000, -1959.000000)">
+            <g id="Input" transform="translate(559.000000, 1960.000000)">
+                <g id="3.DataEntry/Input/Default/Basic-#">
+                    <g id="Z/Shape/RectangleRC/2px/RC-A">
+                        <rect id="BG/fill" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="0.5" width="118" height="30" rx="1"></rect>
+                        <rect id="outline" stroke="#000000" opacity="0.15" x="0" y="0" width="119" height="31" rx="6"></rect>
+                    </g>
+                    <text id="Default-Size" fill="#000000" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                        <tspan x="11.5" y="19.5">Default Size</tspan>
+                    </text>
+                </g>
+                <g id="3.DataEntry/Input/Default/IconRight" transform="translate(0.000000, 44.000000)">
+                    <g id="3.DataEntry/Input/Default/Basic-#">
+                        <g id="9.Box/1.Cards/4.Border" opacity="0.15" stroke="#000000">
+                            <g id="Z/Shape/RectangleRC/2px/RC-A">
+                                <rect id="outline" x="0" y="0" width="119" height="31" rx="6"></rect>
+                            </g>
+                        </g>
+                        <text id="Default-Size" fill="#000000" fill-rule="nonzero" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal">
+                            <tspan x="11.5" y="19.5">Default Size</tspan>
+                        </text>
+                    </g>
+                    <g id="7.Icon/interface/16.search" opacity="0.65" transform="translate(97.249609, 9.250000)" fill="#000000" fill-rule="nonzero">
+                        <path d="M7.75039062,8.8817842e-16 C5.12695312,8.8817842e-16 3.00039062,2.1265625 3.00039062,4.75 C3.00039062,5.8484375 3.37382812,6.859375 3.99882812,7.6640625 L0.036328125,11.6265625 C-0.012109375,11.675 -0.012109375,11.7546875 0.036328125,11.803125 L0.697265625,12.4640625 C0.745703125,12.5125 0.825390625,12.5125 0.873828125,12.4640625 L4.83632812,8.5015625 C5.64101562,9.1265625 6.65195312,9.5 7.75039062,9.5 C10.3738281,9.5 12.5003906,7.3734375 12.5003906,4.75 C12.5003906,2.1265625 10.3738281,8.8817842e-16 7.75039062,8.8817842e-16 Z M10.2691406,7.26875 C9.59726562,7.9421875 8.70195312,8.3125 7.75039062,8.3125 C6.79882812,8.3125 5.90351562,7.9421875 5.23164062,7.26875 C4.55820312,6.596875 4.18789062,5.7015625 4.18789062,4.75 C4.18789062,3.7984375 4.55820312,2.903125 5.23164062,2.23125 C5.90351562,1.5578125 6.79882812,1.1875 7.75039062,1.1875 C8.70195312,1.1875 9.59726562,1.5578125 10.2691406,2.23125 C10.9425781,2.903125 11.3128906,3.7984375 11.3128906,4.75 C11.3128906,5.7015625 10.9425781,6.596875 10.2691406,7.26875 Z" id="fill"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

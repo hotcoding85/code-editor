@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn cli tasks build --stage test
+yarn cli tasks unit --stage test
+yarn cli tasks int --stage test
+yarn cli tasks e2e --stage test
+
+./scripts/git/branch-name-check.sh

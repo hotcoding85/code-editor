@@ -1,0 +1,23 @@
+{
+  "name": "shared-domain-mapper",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/domain/mapper/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/shared/domain/mapper/**/*.ts"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/shared-domain-mapper.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:shared"]
+}

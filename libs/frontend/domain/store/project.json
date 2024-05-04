@@ -1,0 +1,23 @@
+{
+  "name": "frontend-domain-store",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/frontend/domain/store/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/frontend/domain/store/**/*.{ts,tsx,js,jsx}"]
+      },
+      "outputs": ["{options.outputFile}"],
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-domain-store.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:frontend", "layer:domain"]
+}

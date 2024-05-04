@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="116px" viewBox="0 0 108 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>小-垂直-带描述</title>
+    <g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🎉-5.0-新版" transform="translate(-566.000000, -1360.000000)">
+            <g id="小-垂直-带描述" transform="translate(566.000000, 1361.000000)">
+                <g id="导航/Steps步骤条/Light/小-垂直-带描述-完成项" transform="translate(0.000000, -0.600000)">
+                    <text id="Finished" font-family="PingFangSC-Regular, PingFang SC" font-size="9.6" font-weight="normal" line-spacing="14.4" fill="#000000" fill-opacity="0.88">
+                        <tspan x="19.2" y="10">Finished</tspan>
+                    </text>
+                    <text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill="#000000" fill-opacity="0.45">
+                        <tspan x="19.2" y="26.4">This is a description</tspan>
+                    </text>
+                    <g id="Icon/Steps-Finished" transform="translate(0.000000, 0.600000)">
+                        <circle id="椭圆形" fill="#E6F4FF" cx="7.2" cy="7.2" r="7.2"></circle>
+                        <g id="check-outlined" transform="translate(3.600000, 3.600000)" fill="#1677FF" fill-rule="nonzero">
+                            <rect id="矩形" opacity="0" x="0" y="0" width="7.2" height="7.2"></rect>
+                            <path d="M6.4125,1.3359375 L5.92101562,1.3359375 C5.85210937,1.3359375 5.78671875,1.36757813 5.74453125,1.42171875 L2.84554687,5.09414062 L1.45546875,3.3328125 C1.41257812,3.27867187 1.34789062,3.24703125 1.27898437,3.24703125 L0.7875,3.24703125 C0.740390625,3.24703125 0.714375,3.30117187 0.743203125,3.33773437 L2.6690625,5.77757812 C2.7590625,5.89148438 2.93203125,5.89148438 3.02273437,5.77757812 L6.45679687,1.4259375 C6.485625,1.39007813 6.45960937,1.3359375 6.4125,1.3359375 Z" id="路径"></path>
+                        </g>
+                    </g>
+                    <g id="导航/Steps步骤条/Light/垂直分割线" transform="translate(7.200000, 19.800000)" fill="#000000" fill-opacity="0.15">
+                        <rect id="Divider" x="0" y="0" width="1" height="19.0434783"></rect>
+                    </g>
+                </g>
+                <g id="导航/Steps步骤条/Light/小-垂直-带描述-当前项" transform="translate(0.000000, 43.017391)">
+                    <text id="Finished" font-family="PingFangSC-Medium, PingFang SC" font-size="8.4" font-weight="400" line-spacing="13.2" fill="#000000" fill-opacity="0.88">
+                        <tspan x="19.2" y="9.02608696">In Progress</tspan>
+                    </text>
+                    <text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill="#000000" fill-opacity="0.45">
+                        <tspan x="19.2" y="24.626087">This is a description</tspan>
+                    </text>
+                    <g id="导航/Steps步骤条/Light/垂直分割线" transform="translate(7.200000, 19.226087)" fill="#000000" fill-opacity="0.15">
+                        <rect id="Divider" x="0" y="0" width="1" height="19.0434783"></rect>
+                    </g>
+                    <g id="Icon/Steps-Active" transform="translate(0.000000, -0.000000)">
+                        <circle id="Active" fill="#1677FF" cx="7.2" cy="7.2" r="7.2"></circle>
+                        <text id="Number" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill="#FFFFFF">
+                            <tspan x="4.68" y="9.6">2</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="导航/Steps步骤条/Light/小-垂直-带描述-待处理" transform="translate(0.000000, 86.086957)" fill="#000000">
+                    <text id="Finished" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill-opacity="0.45">
+                        <tspan x="19.2" y="9">Waiting</tspan>
+                    </text>
+                    <text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill-opacity="0.45">
+                        <tspan x="19.2" y="24.6">This is a description</tspan>
+                    </text>
+                    <g id="Icon/Steps-Normal">
+                        <circle id="椭圆形" fill-opacity="0.06" cx="7.2" cy="7.2" r="7.2"></circle>
+                        <text id="↳-Number" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill-opacity="0.45">
+                            <tspan x="5.4" y="9.6">3</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

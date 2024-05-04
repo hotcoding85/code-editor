@@ -1,0 +1,55 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+.env
+.env.*
+!.env.example
+!.env.test.example
+
+
+.serverless/
+.build/
+
+# compiled output
+# Ignore everything in 'dist'
+/dist/*
+# Don't ignore 'libs' within 'dist'
+!/dist/libs/
+# Ignore everything in 'dist/libs' except 'tools'
+/dist/libs/*
+!/dist/libs/tools/
+# Ignore everything in 'dist/libs/tools' except 'workspace'
+/dist/libs/tools/*
+!/dist/libs/tools/workspace/
+tmp/
+out-tsc/
+
+# Cypress
+apps/platform-e2e/src/videos
+apps/platform-e2e/src/screenshots
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# misc
+.sass-cache
+connect.lock
+coverage/
+/typings
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Next.js
+.next
+.vercel

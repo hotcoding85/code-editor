@@ -1,0 +1,452 @@
+{
+  "a": [
+    { "key": "download", "type": "string" },
+    { "key": "href", "type": "string" },
+    { "key": "hreflang", "type": "string" },
+    { "key": "ping", "type": "string" },
+    {
+      "key": "referrerpolicy",
+      "type": "no-referrer | origin | unsafe-url | no-referrer-when-downgrade | origin-when-cross-origin | strict-origin-when-cross-origin"
+    },
+    { "key": "rel", "type": "string" },
+    { "key": "target", "type": "string" },
+    { "key": "type", "type": "string" },
+    { "key": "coords", "type": "string" },
+    { "key": "name", "type": "string" },
+    { "key": "rev", "type": "string" },
+    { "key": "shape", "type": "string" }
+  ],
+  "abbr": [{ "key": "title", "type": "string" }],
+  "address": [],
+  "area": [
+    { "key": "alt", "type": "string" },
+    { "key": "coords", "type": "string" },
+    { "key": "href", "type": "string" },
+    { "key": "hreflang", "type": "string" },
+    { "key": "media", "type": "string" },
+    { "key": "ping", "type": "string" },
+    { "key": "rel", "type": "string" },
+    { "key": "shape", "type": "default | rect | circle | poly" },
+    { "key": "target", "type": "string" },
+    { "key": "type", "type": "string" }
+  ],
+  "article": [],
+  "aside": [],
+  "audio": [
+    { "key": "autoplay", "type": "boolean" },
+    { "key": "controls", "type": "boolean" },
+    { "key": "loop", "type": "boolean" },
+    { "key": "muted", "type": "boolean" },
+    { "key": "preload", "type": "auto | metadata | none" },
+    { "key": "src", "type": "string" }
+  ],
+  "b": [],
+  "base": [
+    { "key": "href", "type": "string" },
+    { "key": "target", "type": "string" }
+  ],
+  "bdi": [],
+  "bdo": [{ "key": "dir", "type": "ltr | rtl" }],
+  "blockquote": [{ "key": "cite", "type": "string" }],
+  "body": [
+    { "key": "onafterprint", "type": "script" },
+    { "key": "onbeforeprint", "type": "script" },
+    { "key": "onbeforeunload", "type": "script" },
+    { "key": "onhashchange", "type": "script" },
+    { "key": "onlanguagechange", "type": "script" },
+    { "key": "onmessage", "type": "script" },
+    { "key": "onoffline", "type": "script" },
+    { "key": "ononline", "type": "script" },
+    { "key": "onpagehide", "type": "script" },
+    { "key": "onpageshow", "type": "script" },
+    { "key": "onpopstate", "type": "script" },
+    { "key": "onstorage", "type": "script" },
+    { "key": "onunload", "type": "script" }
+  ],
+  "br": [],
+  "button": [
+    { "key": "autofocus", "type": "boolean" },
+    { "key": "disabled", "type": "boolean" },
+    { "key": "form", "type": "string" },
+    { "key": "formaction", "type": "string" },
+    {
+      "key": "formenctype",
+      "type": "application/x-www-form-urlencoded | multipart/form-data | text/plain"
+    },
+    { "key": "formmethod", "type": "get | post" },
+    { "key": "formnovalidate", "type": "boolean" },
+    { "key": "formtarget", "type": "string" },
+    { "key": "name", "type": "string" },
+    { "key": "type", "type": "button | reset | submit" },
+    { "key": "value", "type": "string" }
+  ],
+  "canvas": [
+    { "key": "height", "type": "integer" },
+    { "key": "width", "type": "integer" }
+  ],
+  "caption": [],
+  "cite": [],
+  "code": [],
+  "col": [{ "key": "span", "type": "integer" }],
+  "colgroup": [{ "key": "span", "type": "integer" }],
+  "data": [{ "key": "value", "type": "string" }],
+  "datalist": [],
+  "dd": [],
+  "del": [
+    { "key": "cite", "type": "string" },
+    { "key": "datetime", "type": "string" }
+  ],
+  "details": [{ "key": "open", "type": "boolean" }],
+  "dfn": [],
+  "dialog": [{ "key": "open", "type": "boolean" }],
+  "div": [],
+  "dl": [],
+  "dt": [],
+  "em": [],
+  "embed": [
+    { "key": "height", "type": "integer" },
+    { "key": "src", "type": "string" },
+    { "key": "type", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "fieldset": [
+    { "key": "disabled", "type": "boolean" },
+    { "key": "form", "type": "string" },
+    { "key": "name", "type": "string" }
+  ],
+  "figcaption": [],
+  "figure": [],
+  "footer": [],
+  "form": [
+    { "key": "accept-charset", "type": "string" },
+    { "key": "action", "type": "string" },
+    { "key": "autocomplete", "type": "on | off" },
+    {
+      "key": "enctype",
+      "type": "application/x-www-form-urlencoded | multipart/form-data | text/plain"
+    },
+    { "key": "method", "type": "get | post" },
+    { "key": "name", "type": "string" },
+    { "key": "novalidate", "type": "boolean" },
+    { "key": "target", "type": "string" }
+  ],
+  "h1": [],
+  "h2": [],
+  "h3": [],
+  "h4": [],
+  "h5": [],
+  "h6": [],
+  "head": [],
+  "header": [],
+  "hr": [],
+  "html": [
+    { "key": "manifest", "type": "string" },
+    { "key": "version", "type": "string" }
+  ],
+  "i": [],
+  "iframe": [
+    { "key": "allow", "type": "string" },
+    { "key": "allowfullscreen", "type": "boolean" },
+    { "key": "allowpaymentrequest", "type": "boolean" },
+    { "key": "height", "type": "integer" },
+    { "key": "name", "type": "string" },
+    {
+      "key": "referrerpolicy",
+      "type": "no-referrer | origin | unsafe-url | no-referrer-when-downgrade | origin-when-cross-origin | strict-origin-when-cross-origin"
+    },
+    { "key": "sandbox", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "srcdoc", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "img": [
+    { "key": "alt", "type": "string" },
+    { "key": "crossorigin", "type": "anonymous | use-credentials" },
+    { "key": "height", "type": "integer" },
+    { "key": "ismap", "type": "boolean" },
+    { "key": "longdesc", "type": "string" },
+    {
+      "key": "referrerpolicy",
+      "type": "no-referrer | origin | unsafe-url | no-referrer-when-downgrade | origin-when-cross-origin | strict-origin-when-cross-origin"
+    },
+    { "key": "sizes", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "srcset", "type": "string" },
+    { "key": "usemap", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "input": [
+    { "key": "accept", "type": "string" },
+    { "key": "alt", "type": "string" },
+    { "key": "autocomplete", "type": "on | off" },
+    { "key": "autofocus", "type": "boolean" },
+    { "key": "checked", "type": "boolean" },
+    { "key": "dirname", "type": "string" },
+    { "key": "disabled", "type": "boolean" },
+    { "key": "form", "type": "string" },
+    { "key": "formaction", "type": "string" },
+    {
+      "key": "formenctype",
+      "type": "application/x-www-form-urlencoded | multipart/form-data | text/plain"
+    },
+    { "key": "formmethod", "type": "get | post" },
+    { "key": "formnovalidate", "type": "boolean" },
+    { "key": "formtarget", "type": "string" },
+    { "key": "height", "type": "integer" },
+    { "key": "list", "type": "string" },
+    { "key": "max", "type": "string" },
+    { "key": "maxlength", "type": "integer" },
+    { "key": "min", "type": "string" },
+    { "key": "minlength", "type": "integer" },
+    { "key": "multiple", "type": "boolean" },
+    { "key": "name", "type": "string" },
+    { "key": "pattern", "type": "string" },
+    { "key": "placeholder", "type": "string" },
+    { "key": "readonly", "type": "boolean" },
+    { "key": "required", "type": "boolean" },
+    { "key": "size", "type": "integer" },
+    { "key": "src", "type": "string" },
+    { "key": "step", "type": "string" },
+    { "key": "type", "type": "string" },
+    { "key": "value", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "ins": [
+    { "key": "cite", "type": "string" },
+    { "key": "datetime", "type": "string" }
+  ],
+  "kbd": [],
+  "label": [
+    { "key": "for", "type": "string" },
+    { "key": "form", "type": "string" }
+  ],
+  "legend": [],
+  "li": [{ "key": "value", "type": "integer" }],
+  "link": [
+    { "key": "crossorigin", "type": "anonymous | use-credentials" },
+    { "key": "href", "type": "string" },
+    { "key": "hreflang", "type": "string" },
+    { "key": "integrity", "type": "string" },
+    { "key": "media", "type": "string" },
+    {
+      "key": "referrerpolicy",
+      "type": "no-referrer | origin | unsafe-url | no-referrer-when-downgrade | origin-when-cross-origin | strict-origin-when-cross-origin"
+    },
+    { "key": "rel", "type": "string" },
+    { "key": "sizes", "type": "string" },
+    { "key": "type", "type": "string" }
+  ],
+  "main": [],
+  "map": [{ "key": "name", "type": "string" }],
+  "mark": [],
+  "math": [
+    { "key": "display", "type": "block | inline" },
+    { "key": "xmlns", "type": "string" }
+  ],
+  "menu": [
+    { "key": "label", "type": "string" },
+    { "key": "type", "type": "context | toolbar" }
+  ],
+  "menuitem": [
+    { "key": "checked", "type": "boolean" },
+    { "key": "command", "type": "string" },
+    { "key": "default", "type": "boolean" },
+    { "key": "disabled", "type": "boolean" },
+    { "key": "icon", "type": "string" },
+    { "key": "label", "type": "string" },
+    { "key": "radiogroup", "type": "string" },
+    { "key": "type", "type": "checkbox | command | radio" }
+  ],
+  "meta": [
+    { "key": "charset", "type": "string" },
+    { "key": "content", "type": "string" },
+    { "key": "http-equiv", "type": "string" },
+    { "key": "name", "type": "string" }
+  ],
+  "meter": [
+    { "key": "form", "type": "string" },
+    { "key": "high", "type": "number" },
+    { "key": "low", "type": "number" },
+    { "key": "max", "type": "number" },
+    { "key": "min", "type": "number" },
+    { "key": "optimum", "type": "number" },
+    { "key": "value", "type": "number" }
+  ],
+  "nav": [],
+  "noscript": [],
+  "object": [
+    { "key": "data", "type": "string" },
+    { "key": "form", "type": "string" },
+    { "key": "height", "type": "integer" },
+    { "key": "name", "type": "string" },
+    { "key": "type", "type": "string" },
+    { "key": "usemap", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "ol": [
+    { "key": "reversed", "type": "boolean" },
+    { "key": "start", "type": "integer" },
+    { "key": "type", "type": "string" }
+  ],
+  "optgroup": [
+    { "key": "disabled", "type": "boolean" },
+    { "key": "label", "type": "string" }
+  ],
+  "option": [
+    { "key": "disabled", "type": "boolean" },
+    { "key": "label", "type": "string" },
+    { "key": "selected", "type": "boolean" },
+    { "key": "value", "type": "string" }
+  ],
+  "output": [
+    { "key": "for", "type": "string" },
+    { "key": "form", "type": "string" },
+    { "key": "name", "type": "string" }
+  ],
+  "p": [],
+  "param": [
+    { "key": "name", "type": "string" },
+    { "key": "value", "type": "string" }
+  ],
+  "picture": [],
+  "pre": [],
+  "progress": [
+    { "key": "max", "type": "number" },
+    { "key": "value", "type": "number" }
+  ],
+  "q": [{ "key": "cite", "type": "string" }],
+  "rp": [],
+  "rt": [],
+  "ruby": [],
+  "s": [],
+  "samp": [],
+  "script": [
+    { "key": "async", "type": "boolean" },
+    { "key": "charset", "type": "string" },
+    { "key": "crossorigin", "type": "anonymous | use-credentials" },
+    { "key": "defer", "type": "boolean" },
+    { "key": "integrity", "type": "string" },
+    { "key": "nomodule", "type": "boolean" },
+    { "key": "nonce", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "type", "type": "string" }
+  ],
+  "section": [],
+  "select": [
+    { "key": "autofocus", "type": "boolean" },
+    { "key": "disabled", "type": "boolean" },
+    { "key": "form", "type": "string" },
+    { "key": "multiple", "type": "boolean" },
+    { "key": "name", "type": "string" },
+    { "key": "required", "type": "boolean" },
+    { "key": "size", "type": "integer" }
+  ],
+  "small": [],
+  "source": [
+    { "key": "media", "type": "string" },
+    { "key": "sizes", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "srcset", "type": "string" },
+    { "key": "type", "type": "string" }
+  ],
+  "span": [],
+  "strong": [],
+  "style": [
+    { "key": "media", "type": "string" },
+    { "key": "nonce", "type": "string" },
+    { "key": "scoped", "type": "boolean" },
+    { "key": "title", "type": "string" },
+    { "key": "type", "type": "string" }
+  ],
+  "sub": [],
+  "summary": [],
+  "sup": [],
+  "svg": [
+    { "key": "height", "type": "string" },
+    { "key": "preserveAspectRatio", "type": "string" },
+    { "key": "viewBox", "type": "string" },
+    { "key": "width", "type": "string" },
+    { "key": "xmlns", "type": "string" },
+    { "key": "xmlns:xlink", "type": "string" }
+  ],
+  "table": [{ "key": "border", "type": "integer" }],
+  "tbody": [],
+  "td": [
+    { "key": "colspan", "type": "integer" },
+    { "key": "headers", "type": "string" },
+    { "key": "rowspan", "type": "integer" }
+  ],
+  "template": [],
+  "textarea": [
+    { "key": "autocomplete", "type": "on | off" },
+    { "key": "autofocus", "type": "boolean" },
+    { "key": "cols", "type": "integer" },
+    { "key": "dirname", "type": "string" },
+    { "key": "disabled", "type": "boolean" },
+    { "key": "form", "type": "string" },
+    { "key": "maxlength", "type": "integer" },
+    { "key": "minlength", "type": "integer" },
+    { "key": "name", "type": "string" },
+    { "key": "placeholder", "type": "string" },
+    { "key": "readonly", "type": "boolean" },
+    { "key": "required", "type": "boolean" },
+    { "key": "rows", "type": "integer" },
+    { "key": "wrap", "type": "hard | soft" }
+  ],
+  "tfoot": [],
+  "time": [{ "key": "datetime", "type": "string" }],
+  "title": [],
+  "tr": [
+    { "key": "align", "type": "left | center | right | justify | char" },
+    { "key": "bgcolor", "type": "string" },
+    { "key": "char", "type": "string" },
+    { "key": "charoff", "type": "string" },
+    { "key": "valign", "type": "top | middle | bottom | baseline" }
+  ],
+  "track": [
+    { "key": "default", "type": "boolean" },
+    {
+      "key": "kind",
+      "type": "enum",
+      "values": [
+        "subtitles",
+        "captions",
+        "descriptions",
+        "chapters",
+        "metadata"
+      ]
+    },
+    { "key": "label", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "srclang", "type": "string" }
+  ],
+  "th": [
+    { "key": "abbr", "type": "string" },
+    { "key": "colspan", "type": "integer" },
+    { "key": "headers", "type": "string" },
+    { "key": "default", "type": "boolean" },
+    {
+      "key": "kind",
+      "type": "captions | chapters | descriptions | metadata | subtitles"
+    },
+    { "key": "label", "type": "string" },
+    { "key": "src", "type": "string" },
+    { "key": "srclang", "type": "string" }
+  ],
+  "u": [],
+  "ul": [],
+  "var": [],
+  "video": [
+    { "key": "autoplay", "type": "boolean" },
+    { "key": "controls", "type": "boolean" },
+    { "key": "crossorigin", "type": "anonymous | use-credentials" },
+    { "key": "height", "type": "integer" },
+    { "key": "loop", "type": "boolean" },
+    { "key": "muted", "type": "boolean" },
+    { "key": "poster", "type": "string" },
+    { "key": "preload", "type": "none | metadata | auto" },
+    { "key": "src", "type": "string" },
+    { "key": "width", "type": "integer" }
+  ],
+  "wbr": []
+}

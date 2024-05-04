@@ -1,0 +1,23 @@
+{
+  "name": "backend-abstract-codegen",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/backend/abstract/codegen/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/backend/abstract/codegen/**/*.ts"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/backend-abstract-codegen.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:backend", "type:abstract"]
+}

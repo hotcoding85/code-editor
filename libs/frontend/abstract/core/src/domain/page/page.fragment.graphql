@@ -1,0 +1,45 @@
+fragment Page on Page {
+  id
+  name
+  slug
+  app {
+    id
+  }
+  rootElement {
+    ...Element
+    descendantElements {
+      ...Element
+    }
+  }
+  pageContentContainer {
+    id
+  }
+  store {
+    ...Store
+  }
+  kind
+  url
+}
+
+fragment BuilderPage on Page {
+  id
+  name
+  slug
+  rootElement {
+    ...Element
+    descendantElements {
+      ...Element
+    }
+  }
+  app {
+    id
+  }
+  store {
+    ...Store
+  }
+  pageContentContainer {
+    id
+  }
+  kind
+  url
+}

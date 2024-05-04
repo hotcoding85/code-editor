@@ -1,0 +1,12 @@
+fragment Resource on Resource {
+  id
+  name
+  type
+  config {
+    ...Prop
+  }
+  owner {
+    id
+    auth0Id
+  }
+}

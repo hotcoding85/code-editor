@@ -1,0 +1,23 @@
+{
+  "name": "frontend-domain-vercel",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["scope:frontend"],
+  "sourceRoot": "libs/frontend/domain/vercel/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/frontend/domain/vercel/**/*.{ts,tsx,js,jsx}"]
+      },
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-domain-vercel.xml",
+          "quiet": true
+        }
+      }
+    }
+  }
+}

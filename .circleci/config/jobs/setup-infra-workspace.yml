@@ -1,0 +1,12 @@
+executor: docker-node
+resource_class: large
+steps:
+  - restore-workspace
+  - install-terraform
+  - install-nvm
+  - install-npm
+  - build-repo
+  - persist_to_workspace:
+      root: ~/
+      paths:
+        - ./project/dist

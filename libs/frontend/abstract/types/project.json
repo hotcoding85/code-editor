@@ -1,0 +1,25 @@
+{
+  "name": "frontend-abstract-types",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/frontend/abstract/types/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/frontend/abstract/types/**/*.{ts,tsx,js,jsx}"
+        ]
+      },
+      "outputs": ["{options.outputFile}"],
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-abstract-types.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["type:abstract", "scope:frontend"]
+}

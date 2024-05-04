@@ -1,0 +1,25 @@
+{
+  "name": "frontend-presentation-view",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/frontend/presentation/view",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/frontend/presentation/view/**/*.{ts,tsx,js,jsx}"
+        ]
+      },
+      "outputs": ["{options.outputFile}"],
+      "configurations": {
+        "ci": {
+          "format": "junit",
+          "outputFile": "tmp/reports/lint/frontend-presentation-view.xml",
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": ["scope:frontend"]
+}

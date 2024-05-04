@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Nunito, system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply !font-black;
+  }
+
+  h1 {
+    /* @apply !text-sm; */
+  }
+
+  h2 {
+    /* @apply text-xl; */
+  }
+
+  h3 {
+    /* @apply text-xl; */
+  }
+
+  h4 {
+    /* @apply text-xl; */
+  }
+
+  h5 {
+    /* @apply text-xl; */
+  }
+
+  h6 {
+    /* @apply text-sm; */
+  }
+}
+
+@layer utilities {
+}
+
+/*.container {*/
+/*  @apply 2xl:container xl:container;*/
+/*}*/
+
+/*a {*/
+/*  @apply !transition-none;*/
+/*}*/
